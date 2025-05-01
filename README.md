@@ -30,19 +30,15 @@
 🧑💻 Getting Started
 Prerequisites
 Unity 2021.3+ with Universal RP
-
 Node.js 18.x & Python 3.10+
-
 Azure account with Cognitive Services
-
 Installation
-
 Run Locally
 
 🧠 AI Recommendation System
 Clothing Suggestion Algorithm
 
-def recommend_outfit(user_profile, weather_data):
+#def recommend_outfit(user_profile, weather_data):
     # Neural collaborative filtering
     style_embedding = model.predict([user_profile.style_history])
     
@@ -59,9 +55,7 @@ def recommend_outfit(user_profile, weather_data):
 Key Training Data:
 
 500k+ outfit combinations
-
 Real-world weather patterns
-
 Social media trend data
 
 ⚡ Real-Time 3D Infrastructure
@@ -119,3 +113,14 @@ contract AetheriaItems is ERC1155Royalty {
 
 🛠️ Development Ecosystem
 Modular Architectur
+
+aetheria-core/
+├── neural-commerce/     # AI/ML Components
+│   ├── style-transfer/  # Virtual try-on models
+│   └── dialog-engine/   # Personality framework
+├── cyber-engine/        # 3D Systems
+│   ├── material-lab/    # Procedural textures
+│   └── physics/         # Real-time cloth sim
+└── blockchain-core/     # Web3 Integration
+    ├── nft-minter/      # Digital asset creation
+    └── defi/            # Token economy
